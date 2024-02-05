@@ -24,8 +24,8 @@ formazzadf_media_annuale %>%
              color = name))+
   geom_point()+
   geom_line()+
-  geom_hline(yintercept = 0, color="lightblue", size = 1.2)+
-  geom_smooth(se=FALSE, color="darkgrey", method=lm)+
+  geom_hline(yintercept = 0, color="lightblue", linewidth = 0.5)+
+  geom_smooth(se=FALSE, color="darkgrey", method=lm, linewidth = 0.3)+
   labs(x = NULL,
        y = "Temperatura(C°)",
        title = "Temperature medie mensili a P. Camosci (2453 mslm)")+

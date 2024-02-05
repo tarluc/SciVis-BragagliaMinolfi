@@ -30,7 +30,7 @@ domodossoladf_media_annuale %>%
              color = name))+
   geom_point()+
   geom_line()+
-  geom_smooth(se=FALSE, color="darkgrey", method = lm)+
+  geom_smooth(se=FALSE, color="darkgrey", method = lm, linewidth = 0.3)+
   labs(x = NULL,
        y = "Temperatura(C°)",
        title = "Temperature medie annuali a Domodossola")+

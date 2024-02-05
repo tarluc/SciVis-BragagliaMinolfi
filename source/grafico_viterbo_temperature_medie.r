@@ -16,7 +16,7 @@ ggplot(data=viterbo_media,
     geom_hline(yintercept = 0, color="white")+
     scale_x_discrete(labels=month.abb)+
     scale_y_continuous(breaks = seq(-12,30,1))+
-    scale_color_viridis_c(option = 'plasma')+
+    scale_color_gradient2(low = "darkblue", mid = "white",high = "darkred",midpoint = 2005)+
     labs(x = NULL,
         y = "Temperatura media mensile (C°)",
         title = "Temperature medie mensili a Viterbo")+

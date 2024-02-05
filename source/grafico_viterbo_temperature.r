@@ -25,11 +25,11 @@ temp_max %>%
             color = name))+
   geom_point()+
   geom_line()+
-  geom_smooth(se=FALSE, color="#6a6846", method=lm)+
+  geom_smooth(se=FALSE, color="#6a6846", method=lm, linewidth = 0.3)+
   labs(x = NULL,
        y = "Temperatura(C°)",
        title = "Temperature medie annuali Viterbo")+
-  scale_x_continuous(breaks = unique(temp_max$ANNO))+
+  scale_x_continuous(breaks = seq(1990,2022,4))+
   scale_y_continuous(breaks = seq(0,40,1))+
   theme(plot.background = element_rect(fill = "white"),
         axis.text = element_text(color="#233e30"),
