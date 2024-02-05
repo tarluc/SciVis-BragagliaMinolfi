@@ -9,6 +9,6 @@ Presentazione e materiale per esame del corso visualizzazione scientifica presso
 
 ## Data Reference
 
-- <https://www.scia.ispraambiente.it/wwwrootscia/Home_new.html><ispraambiente.it>
-- <https://www.arpalazio.it><ARPA Lazio>
-- <https://arpa.piemonte.it/dati-ambientali><ARPA Piemonte>
+- [ispraambiente.it](http://www.scia.isprambiente.it/wwwrootscia/Home_new.html)
+- [ARPA Lazio](https://www.arpalazio.it)
+- [ARPA Piemonte](https://arpa.piemonte.it/dati-ambientali)
